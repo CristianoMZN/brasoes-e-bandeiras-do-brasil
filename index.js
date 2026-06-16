@@ -1,5 +1,6 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
+import fs from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,6 +30,21 @@ export class Bbb {
       );
     }
 
-    return path.join(__dirname, BASE_PATH, ufUpper, `${codeStr}.jpg`);
+    const basePath = path.join(__dirname, BASE_PATH);
+    const ufDir = path.join(basePath, ufUpper);
+
+    if (!fs.existsSync(ufDir)) {
+      throw new Error(
+        `Diretório da UF '${ufUpper}' não encontrado. A lib pode estar corrompida.`
+      );
+    }
+
+    const filePath = path.join(ufDir, `${codeStr}.jpg`);
+
+    if (!fs.existsSync(filePath)) {
+      return null;
+    }
+
+    return filePath;
   }
 }

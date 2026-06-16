@@ -3,6 +3,7 @@
 namespace CristianoMzn\Bbb;
 
 use InvalidArgumentException;
+use RuntimeException;
 
 class Bbb
 {
@@ -14,7 +15,7 @@ class Bbb
         'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO',
     ];
 
-    public static function get(string $uf, string $ibgeCode): string
+    public static function get(string $uf, string $ibgeCode): string|false
     {
         $uf = strtoupper(trim($uf));
 
@@ -30,6 +31,21 @@ class Bbb
             );
         }
 
-        return dirname(__DIR__, 2) . '/' . self::BASE_PATH . "/{$uf}/{$ibgeCode}.jpg";
+        $basePath = dirname(__DIR__, 2) . '/' . self::BASE_PATH;
+        $ufDir = $basePath . '/' . $uf;
+
+        if (!is_dir($ufDir)) {
+            throw new RuntimeException(
+                "Diretório da UF '{$uf}' não encontrado. A lib pode estar corrompida."
+            );
+        }
+
+        $path = $ufDir . "/{$ibgeCode}.jpg";
+
+        if (!file_exists($path)) {
+            return false;
+        }
+
+        return $path;
     }
 }
