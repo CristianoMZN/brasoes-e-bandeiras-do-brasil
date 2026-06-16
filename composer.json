@@ -1,0 +1,26 @@
+{
+    "name": "cristianomzn/brasoes-e-bandeiras-do-brasil",
+    "description": "Arquivo de imagens de brasões de armas municipais brasileiros para uso em DANFSE e outros fins.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristiano Mozena",
+            "email": "cristianomzn@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CristianoMzn\\Bbb\\": "src/"
+        }
+    },
+    "keywords": [
+        "brasao",
+        "brasoes",
+        "bandeiras",
+        "municipios",
+        "brasil",
+        "ibge",
+        "danfse"
+    ]
+}
