@@ -23,6 +23,9 @@ brasao-de-armas-municipal/
 ├── AL/
 │   ├── 2700105.jpg
 │   └── ...
+├── GO/
+│   ├── 5200050.jpg
+│   └── ...
 └── ...
 ```
 
@@ -34,43 +37,43 @@ As imagens são organizadas por unidade federativa (UF) e nomeadas pelo código 
 
 | Métrica | Valor |
 |---------|-------|
-| Total de imagens | 1.955 |
-| Estados cobertos | 19 |
-| Municípios abrangidos | 1.817 |
+| Total de imagens | 3.266 |
+| Estados cobertos | 27 |
+| Municípios abrangidos | 3.266 |
 | Total de municípios no Brasil | 5.569 |
-| Cobertura nacional | 32,6% |
+| Cobertura nacional | 58,6% |
 
 ### Detalhamento por UF
 
-| UF | Municípios cobertos | Total de municípios |
-|----|---------------------|---------------------|
-| AC | 8 | 22 |
-| AL | 40 | 102 |
-| AM | 23 | 62 |
-| AP | 5 | 16 |
-| BA | 133 | 417 |
-| CE | 92 | 184 |
-| ES | 40 | 78 |
-| MA | 39 | 217 |
-| MG | 494 | 853 |
-| PA | 49 | 144 |
-| PB | 168 | 223 |
-| PE | 53 | 185 |
-| PI | 37 | 224 |
-| RJ | 48 | 92 |
-| RN | 100 | 167 |
-| RO | 31 | 52 |
-| RR | 12 | 15 |
-| SE | 30 | 75 |
-| TO | 23 | 139 |
-
-### Estados pendentes
-
-| Região | Estados |
-|--------|---------|
-| Centro-Oeste | DF, GO, MS, MT |
-| Sudeste | SP |
-| Sul | PR, RS, SC |
+| UF | Municípios cobertos | Total de municípios | Cobertura |
+|----|---------------------|---------------------|-----------|
+| AC | 10 | 22 | 45,5% |
+| AL | 49 | 102 | 48,0% |
+| AM | 28 | 62 | 45,2% |
+| AP | 5 | 16 | 31,3% |
+| BA | 146 | 417 | 35,0% |
+| CE | 100 | 184 | 54,3% |
+| DF | 1 | 11 | 9,1% |
+| ES | 51 | 78 | 65,4% |
+| GO | 107 | 246 | 43,5% |
+| MA | 45 | 217 | 20,7% |
+| MG | 607 | 853 | 71,2% |
+| MS | 35 | 79 | 44,3% |
+| MT | 60 | 142 | 42,3% |
+| PA | 60 | 144 | 41,7% |
+| PB | 180 | 223 | 80,7% |
+| PE | 58 | 184 | 31,5% |
+| PI | 40 | 224 | 17,9% |
+| PR | 196 | 399 | 49,1% |
+| RJ | 75 | 92 | 81,5% |
+| RN | 106 | 167 | 63,5% |
+| RO | 34 | 52 | 65,4% |
+| RR | 15 | 15 | 100% |
+| RS | 433 | 497 | 87,1% |
+| SC | 214 | 295 | 72,5% |
+| SE | 34 | 75 | 45,3% |
+| SP | 554 | 645 | 85,9% |
+| TO | 23 | 139 | 16,5% |
 
 ## Como contribuir
 
