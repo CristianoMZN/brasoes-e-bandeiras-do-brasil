@@ -1,6 +1,6 @@
 {
   "name": "@cristianomzn/brasoes-e-bandeiras-do-brasil",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Arquivo de imagens de brasões de armas municipais brasileiros para uso em DANFSE e outros fins.",
   "type": "module",
   "main": "index.js",
