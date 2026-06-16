@@ -42,27 +42,27 @@ As imagens são organizadas por unidade federativa (UF) e nomeadas pelo código 
 
 ### Detalhamento por UF
 
-| UF | Região | Imagens | Municípios | Cobertura |
-|----|--------|---------|------------|-----------|
-| AC | Norte | 8 | 22 | 36% |
-| AL | Nordeste | 40 | 102 | 39% |
-| AM | Norte | 23 | 62 | 37% |
-| AP | Norte | 5 | 16 | 31% |
-| BA | Nordeste | 133 | 417 | 32% |
-| CE | Nordeste | 92 | 184 | 50% |
-| ES | Sudeste | 40 | 78 | 51% |
-| MA | Nordeste | 39 | 217 | 18% |
-| MG | Sudeste | 494 | 853 | 58% |
-| PA | Norte | 49 | 144 | 34% |
-| PB | Nordeste | 168 | 223 | 75% |
-| PE | Nordeste | 53 | 185 | 29% |
-| PI | Nordeste | 37 | 224 | 17% |
-| RJ | Sudeste | 48 | 92 | 52% |
-| RN | Nordeste | 100 | 167 | 60% |
-| RO | Norte | 31 | 52 | 60% |
-| RR | Norte | 12 | 15 | 80% |
-| SE | Nordeste | 30 | 75 | 40% |
-| TO | Norte | 23 | 139 | 17% |
+| UF | Municípios cobertos | Total de municípios |
+|----|---------------------|---------------------|
+| AC | 8 | 22 |
+| AL | 40 | 102 |
+| AM | 23 | 62 |
+| AP | 5 | 16 |
+| BA | 133 | 417 |
+| CE | 92 | 184 |
+| ES | 40 | 78 |
+| MA | 39 | 217 |
+| MG | 494 | 853 |
+| PA | 49 | 144 |
+| PB | 168 | 223 |
+| PE | 53 | 185 |
+| PI | 37 | 224 |
+| RJ | 48 | 92 |
+| RN | 100 | 167 |
+| RO | 31 | 52 |
+| RR | 12 | 15 |
+| SE | 30 | 75 |
+| TO | 23 | 139 |
 
 ### Estados pendentes
 
