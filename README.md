@@ -106,6 +106,46 @@ As imagens são obtidas de fontes públicas na internet, como:
 
 Ao contribuir, informe a origem da imagem utilizada.
 
+## Instalação
+
+### Composer (PHP)
+
+```bash
+composer require cristianomzn/brasoes-e-bandeiras-do-brasil
+```
+
+### npm (Node.js)
+
+```bash
+npm install @cristianomzn/brasoes-e-bandeiras-do-brasil
+```
+
+## Uso
+
+### PHP
+
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use CristianoMzn\Bbb\Bbb;
+
+$path = Bbb::get('SP', '3550308');
+// Retorna: "/home/user/projeto/vendor/cristianomzn/brasoes-e-bandeiras-do-brasil/brasao-de-armas-municipal/SP/3550308.jpg"
+```
+
+### Node.js
+
+```js
+import { Bbb } from '@cristianomzn/brasoes-e-bandeiras-do-brasil';
+
+const path = Bbb.get('SP', '3550308');
+// Retorna: "/home/user/projeto/node_modules/@cristianomzn/brasoes-e-bandeiras-do-brasil/brasao-de-armas-municipal/SP/3550308.jpg"
+```
+
+O path retornado é **absoluto** e já aponta para o arquivo de imagem no sistema de arquivos.
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
