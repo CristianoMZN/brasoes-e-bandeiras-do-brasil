@@ -276,7 +276,7 @@ As imagens seguem o layout sugerido para inserção na DANFSE.
 | MA | 45 | 217 | 20,7% | ███░░░░░░░░░░ |
 | TO | 23 | 139 | 16,5% | ██░░░░░░░░░░░ |
 | PI | 40 | 224 | 17,9% | ██░░░░░░░░░░░ |
-| DF | 1 | 11 | 9,1% | █░░░░░░░░░░░░ |
+| DF - Brasília | 1 | 1 | 100% | █████████████ |
 
 ## Como contribuir
 
