@@ -1,0 +1,28 @@
+{
+  "name": "@cristianomzn/brasoes-e-bandeiras-do-brasil",
+  "version": "1.0.0",
+  "description": "Arquivo de imagens de brasões de armas municipais brasileiros para uso em DANFSE e outros fins.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --input-type=module -e \"import { Bbb } from './index.js'; console.log(Bbb.get('SP', '3550308'));\""
+  },
+  "keywords": [
+    "brasao",
+    "brasoes",
+    "bandeiras",
+    "municipios",
+    "brasil",
+    "ibge",
+    "danfse"
+  ],
+  "author": "Cristiano Mozena",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristianomzn/brasoes-e-bandeiras-do-brasil.git"
+  }
+}
