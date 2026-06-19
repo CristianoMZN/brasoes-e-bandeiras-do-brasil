@@ -31,7 +31,7 @@ class Bbb
             );
         }
 
-        $basePath = dirname(__DIR__, 2) . '/' . self::BASE_PATH;
+        $basePath = dirname(__DIR__, 1) . '/' . self::BASE_PATH;
         $ufDir = $basePath . '/' . $uf;
 
         if (!is_dir($ufDir)) {
